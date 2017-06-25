@@ -5,7 +5,9 @@ module.exports = {
         filename : './public/bundle.js'
     } ,
     resolve : {
-        extensions : ['','.js','.jsx']
+        modules:[__dirname,'node_modules'],
+        extensions : ['','.js','.jsx'],
+        //alias : {} uncomment this if you want to using an alias modules name
     },module:{
         loaders:[
             {
