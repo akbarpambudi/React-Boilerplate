@@ -6,7 +6,7 @@ module.exports = {
     } ,
     resolve : {
         modules:[__dirname,'node_modules'],
-        extensions : ['','.js','.jsx'],
+        extensions : ['.js','.jsx'],
         //alias : {} uncomment this if you want to using an alias modules name
     },module:{
         loaders:[
